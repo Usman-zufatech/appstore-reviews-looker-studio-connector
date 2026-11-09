@@ -6,7 +6,6 @@ function getData(request) {
     throw new Error('Invalid request from Looker Studio');
   }
 
-  console.log('getData request: ' + JSON.stringify(request));
 
   var c = request.configParams;
   var appId = (c.app_id || '').trim();
@@ -34,7 +33,7 @@ function getData(request) {
     throw new Error('No fields requested by Looker Studio.');
   }
 
-  console.log('Requested field IDs: ' + JSON.stringify(requestedIds));
+
 
   var requestedFields = getFields_().forIds(requestedIds);
   var schema = requestedFields.build();
@@ -116,7 +115,6 @@ function getData(request) {
     url = (obj.links && obj.links.next) ? obj.links.next : null;
   }
 
-  console.log('Total rows returned: ' + rows.length);
 
   return {
     schema: schema,
