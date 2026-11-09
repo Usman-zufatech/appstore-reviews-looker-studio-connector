@@ -1,2 +1,0 @@
-https://connectors.zufatech.com/
-looker-studio, community-connector, app-store-connect, apps-script, analytics
