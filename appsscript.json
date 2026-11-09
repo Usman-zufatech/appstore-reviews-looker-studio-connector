@@ -1,0 +1,32 @@
+{
+  "timeZone": "Asia/Qatar",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.external_request"
+  ],
+  "dataStudio": {
+    "name": "App Store Connect Reviews",
+    "company": "ZUFATech",
+    "companyUrl": "https://it.emllc.net/",
+    "logoUrl": "https://connectors.zufatech.com/assets/logo.svg",
+    "addonUrl": "https://it.emllc.net/app-store-connect-reviews/",
+    "description": "Fetch App Store customer reviews using App Store Connect API",
+    "shortDescription": "Pull App Store reviews into Looker Studio.",
+    "privacyPolicyUrl": "https://it.emllc.net/app-store-connect-reviews-privacy/",
+    "termsOfServiceUrl": "https://it.emllc.net/app-store-connect-reviews-terms/",
+    "authType": [
+      "NONE"
+    ],
+    "feeType": [
+      "FREE"
+    ],
+    "sources": [
+      "APPLE_ITUNES"
+    ],
+    "supportUrl": "https://it.emllc.net/contact/"
+  },
+  "urlFetchWhitelist": [
+    "https://api.appstoreconnect.apple.com/"
+  ]
+}
